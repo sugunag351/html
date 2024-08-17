@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form of details</title>
+    </head>
+    <body>
+        <form>
+        <fieldset>
+            <legend>personal_details</legend>
+            <label for="fname">first name:</label> 
+            <input type="text" id="fname" name="fname">
+            <br><br>
+            <label for="mname">middle name:</label> 
+            <input type="text" id="mname" name="mname">
+            <br><br>
+            <label for="lname">last name:</label>
+            <input type="text" id="lname" name="lname">
+            <br><br>
+            <label for="dob">date of birth:</label> 
+            <input type="date" id="dob" name="dob">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>education_details</legend>
+            <label for="">Department</label><br>
+            <input type="radio" id="cs" name="dept">
+            <label for="cs">CSE</label>
+            <input type="radio" id="ec" name="dept">
+            <label for="ec">ECE</label>
+            <input type="radio" id="civil" name="dept">
+            <label for="civil">CIVIL</label><br><br>
+            <lable for="year">Year Of Graduation:</lable>
+            <input list="yog" id="year" name="year">
+            <datalist id="yog">
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+            </datalist>
+            <br><br>
+            <label for="">Skills</label>
+            <br>
+            <input type="checkbox" id="html" name="html">
+            <label for="html">HTML</label>
+            <br>
+            <input type="checkbox" id="css" name="css">
+            <label for="css">CSS</label>
+            <br>
+            <input type="checkbox" id="java" name="java">
+            <label for="java">JAVA</label>
+        </fieldset>
+        <input type="submit" value="submit">
+
+        </form>
+    </body>
+</html>
